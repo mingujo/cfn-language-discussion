@@ -12,6 +12,7 @@ We introduce `Fn::For` intrinsic function. You can iterate a given list to repli
 
 In CloudFormation template, a single Resource configures one infrastructure object. Therefore, a template can become verbose when you manually declare multiple similar resources. Some examples would include a pool of EC2 instances with the same configurations but different instance types, or S3 Bucket Notification configurations with different SNS Topics.
 
+
 # Declaration
 ### Json
 ```
